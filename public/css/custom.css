@@ -1,0 +1,25 @@
+/*This is my custom CSS*/
+@font-face {
+    font-family: "Sans Forgetica";
+    src: url(SansForgetica-Regular.otf);
+}
+
+* {
+    overflow: hidden !important;
+}
+
+.hero.is-primary.is-bold#particles-js {
+    background: transparent;
+   
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+/* Particles JS */
+#particles-js canvas {
+    position: absolute;
+    height: 100vh;
+    z-index: -1;
+    background: linear-gradient(rgba(10, 10, 10, 0.3), rgba(0, 0, 0, 0.2)), repeating-linear-gradient(0, transparent, transparent 2px, black 3px, black 3px), url("https://wallpaperplay.com/walls/full/2/9/e/131490.jpg");
+    background-size: cover;
+}
