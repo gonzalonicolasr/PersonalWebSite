@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gonzalo Rocca - Ingeniero Backend Senior</title>
+    <meta name="description" content="Ingeniero Backend Senior en Telecom Argentina con más de 9 años de experiencia especializado en sistemas backend para servicios móviles Personal y la plataforma de billetera digital Personal Pay">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/modern-styles.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-sphere gradient-1"></div>
+        <div class="gradient-sphere gradient-2"></div>
+        <div class="gradient-sphere gradient-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-text">GR</span>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active">
+                        <span class="nav-number">01.</span> Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">
+                        <span class="nav-number">02.</span> About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">
+                        <span class="nav-number">03.</span> Experience
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">
+                        <span class="nav-number">04.</span> Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">
+                        <span class="nav-number">05.</span> Contact
+                    </a>
+                </li>
+            </ul>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <span class="hero-greeting">Hi, my name is</span>
+                        <h1 class="hero-name">Gonzalo Rocca.</h1>
+                        <h2 class="hero-title">I build things for the web.</h2>
+                        <p class="hero-description">
+                            I'm a software engineer specializing in building exceptional digital experiences.
+                            Currently, I'm working as a Senior Backend Engineer at a <span class="highlight">leading tech company</span>
+                            building scalable solutions and enterprise systems.
+                        </p>
+                        <div class="hero-cta">
+                            <a href="#contact" class="btn btn-primary">
+                                <span>Get In Touch</span>
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            <a href="pdf/portfolioGonzaloRocca.pdf" download class="btn btn-outline">
+                                <span>Download CV</span>
+                                <i class="fas fa-download"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="hero-image-wrapper">
+                            <div class="hero-image-glow"></div>
+                            <div class="hero-image">
+                                <div class="code-window">
+                                    <div class="code-header">
+                                        <span class="code-dot red"></span>
+                                        <span class="code-dot yellow"></span>
+                                        <span class="code-dot green"></span>
+                                    </div>
+                                    <pre class="code-content">
+<span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">'Gonzalo Rocca'</span>,
+  <span class="code-property">role</span>: <span class="code-string">'Senior Backend Engineer'</span>,
+  <span class="code-property">experience</span>: <span class="code-number">9</span>,
+  <span class="code-property">location</span>: <span class="code-string">'Argentina'</span>,
+  <span class="code-property">passions</span>: [
+    <span class="code-string">'coding'</span>,
+    <span class="code-string">'problem-solving'</span>,
+    <span class="code-string">'innovation'</span>
+  ]
+};
+                                    </pre>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/gonzalonicolasr" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/gonnicolas/" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/gonzalonrocca" target="_blank" rel="noopener noreferrer" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <div class="social-line"></div>
+                </div>
+                <div class="scroll-indicator">
+                    <div class="mouse">
+                        <div class="wheel"></div>
+                    </div>
+                    <span class="scroll-text">Scroll Down</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="section-number">02.</span> About Me
+                    </h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Hola! Soy Gonzalo, un apasionado ingeniero de software que vive en San Luis, Argentina.
+                            Disfruto creando cosas que viven en internet, ya sean sitios web, aplicaciones o cualquier cosa intermedia.
+                        </p>
+                        <p>
+                            Mi viaje en la tecnología comenzó con la curiosidad por entender cómo funcionan las cosas. Esta pasión me llevó
+                            a especializarme en seguridad informática, obteniendo mi certificación CEH (Certified Ethical Hacker) de EC-Council,
+                            lo que me permite construir sistemas más robustos y seguros para las empresas con las que trabajo.
+                        </p>
+                        <p>
+                            Avanzando hasta hoy, he tenido el privilegio de trabajar en empresas líderes del sector tecnológico en América Latina,
+                            desde startups innovadoras hasta grandes corporaciones. Mi enfoque principal estos días es construir sistemas backend
+                            robustos y arquitecturas escalables que impactan millones de usuarios diariamente.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="9">0</div>
+                                <div class="stat-label">Years Experience</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="20">0</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" data-target="5">0</div>
+                                <div class="stat-label">Companies</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <div class="image-card">
+                                <img src="img/about.jpg" alt="Gonzalo Rocca" />
+                                <div class="image-overlay"></div>
+                            </div>
+                            <div class="image-border"></div>
+                        </div>
+                        <div class="floating-icons">
+                            <i class="fab fa-react floating-icon"></i>
+                            <i class="fab fa-node-js floating-icon"></i>
+                            <i class="fab fa-python floating-icon"></i>
+                            <i class="fab fa-java floating-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience" id="experience">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="section-number">03.</span> Where I've Worked
+                    </h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item active">
+                        <div class="timeline-date">2023 - Present</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Senior Backend Engineer @ Telecom Argentina</h3>
+                            <p class="timeline-location">Buenos Aires, Argentina</p>
+                            <ul class="timeline-description">
+                                <li>Design and develop scalable backend systems for Personal mobile services and Personal Pay digital wallet platform</li>
+                                <li>Lead technical initiatives for digital transformation of mobile services and payment solutions</li>
+                                <li>Architect microservices solutions using Java Spring Boot and Node.js for Personal mobile phone services and Personal Pay transactions</li>
+                                <li>Collaborate with cross-functional teams to deliver enterprise-level solutions for mobile carrier operations and digital payment processing</li>
+                                <li>Optimize system performance and reliability for critical mobile network services and secure payment infrastructure</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">Java Spring Boot</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">Microservices</span>
+                                <span class="tag">AWS</span>
+                                <span class="tag">Kubernetes</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2020 - 2023</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Software Engineer @ Mercado Libre</h3>
+                            <p class="timeline-location">San Luis, Argentina</p>
+                            <ul class="timeline-description">
+                                <li>Developed and maintained fraud prevention systems handling millions of transactions daily</li>
+                                <li>Collaborated with cross-functional teams to implement security measures</li>
+                                <li>Optimized algorithms that reduced fraud incidents by 35%</li>
+                                <li>Worked with modern tech stack including Java, Node.js, and cloud services</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">Java</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">AWS</span>
+                                <span class="tag">Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2018 - 2020</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Software Engineer @ Beclever</h3>
+                            <p class="timeline-location">San Luis, Argentina</p>
+                            <ul class="timeline-description">
+                                <li>Built scalable web applications for various clients</li>
+                                <li>Led development of e-commerce platform serving 10k+ users</li>
+                                <li>Implemented CI/CD pipelines improving deployment efficiency by 50%</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">PHP</span>
+                                <span class="tag">MySQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">2016 - 2018</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Software Engineer @ Pixart SRL</h3>
+                            <p class="timeline-location">Buenos Aires, Argentina</p>
+                            <ul class="timeline-description">
+                                <li>Developed and maintained Mobile Device Management (MDM) systems for government clients in Ecuador, Guatemala, and Bolivia managing 20,000+ devices</li>
+                                <li>Led implementation of MDM solution in San Luis, Argentina for control and management of 120,000 tablets</li>
+                                <li>Built content filtering platform (SAFEWEB) to protect minors from inappropriate internet content</li>
+                                <li>Developed IURIX judicial management system for electronic case files and digital document processing</li>
+                                <li>Created educational content distribution system (EDURXART) for digital learning management</li>
+                            </ul>
+                            <div class="timeline-tags">
+                                <span class="tag">Node.js</span>
+                                <span class="tag">C#</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Firebase</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <div class="section-container">
+                <div class="section-header">
+                    <h2 class="section-title">
+                        <span class="section-number">04.</span> Skills & Technologies
+                    </h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-code"></i> Frontend
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <span class="skill-name">HTML5</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <span class="skill-name">CSS3</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <span class="skill-name">JavaScript</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-vuejs"></i>
+                                </div>
+                                <span class="skill-name">Vue.js</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-server"></i> Backend
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <span class="skill-name">Node.js</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-php"></i>
+                                </div>
+                                <span class="skill-name">PHP</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-java"></i>
+                                </div>
+                                <span class="skill-name">Java</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-fire"></i>
+                                </div>
+                                <span class="skill-name">Firebase</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3 class="category-title">
+                            <i class="fas fa-tools"></i> Tools & Others
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <span class="skill-name">Git</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-docker"></i>
+                                </div>
+                                <span class="skill-name">Docker</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="70%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fab fa-aws"></i>
+                                </div>
+                                <span class="skill-name">AWS</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <span class="skill-name">Security</span>
+                                <div class="skill-level">
+                                    <div class="skill-progress" data-width="80%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="education-section">
+                    <h3 class="subsection-title">Education & Certifications</h3>
+                    <div class="education-cards">
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <h4>Computer Engineering</h4>
+                            <p>Universidad Nacional de San Luis</p>
+                            <span class="education-year">2014 - 2019</span>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <h4>Full Stack Web Development</h4>
+                            <p>DigitalHouse</p>
+                            <span class="education-year">2018</span>
+                        </div>
+                        <div class="education-card">
+                            <div class="education-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>CEH - Ethical Hacking</h4>
+                            <p>EC-Council</p>
+                            <span class="education-year">2020</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="section-container">
+                <div class="section-header centered">
+                    <h2 class="section-title">
+                        <span class="section-number">05.</span> Get In Touch
+                    </h2>
+                </div>
+
+                <div class="contact-content">
+                    <p class="contact-description">
+                        I'm currently looking for new opportunities, my inbox is always open.
+                        Whether you have a question or just want to say hi, I'll try my best
+                        to get back to you!
+                    </p>
+
+                    <div class="contact-cards">
+                        <a href="mailto:gonzalonicolas.dev@gmail.com" class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <h3>Email</h3>
+                            <p>gonzalonicolas.dev@gmail.com</p>
+                        </a>
+
+                        <a href="https://wa.me/5492664910648" target="_blank" rel="noopener noreferrer" class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <h3>WhatsApp</h3>
+                            <p>+549 2664910648</p>
+                        </a>
+
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <h3>Location</h3>
+                            <p>San Luis, Argentina</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-cta">
+                        <a href="mailto:gonzalonicolas.dev@gmail.com" class="btn btn-primary btn-large">
+                            <span>Say Hello</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-socials">
+                <a href="https://github.com/gonzalonicolasr" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gonnicolas/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.facebook.com/gonn.nicolas" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/gonzalonrocca" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p class="footer-text">
+                Designed & Built by Gonzalo Rocca
+            </p>
+            <p class="footer-copyright">
+                © 2024 All rights reserved
+            </p>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/language-switcher.js"></script>
+    <script src="js/modern-script.js"></script>
+</body>
+</html>
